@@ -25,8 +25,8 @@ def send_whatsapp_messages(phone_number, message, repeat, delay_ms, language):
     keyboard.press_and_release('alt+shift')  # Eski klavyeye dönüş
 
 # Telefon numarası ve mesaj bilgileri
-phone_number = "+90 539 554 56 23"  # Alıcının telefon numarası
-message = "abi naber"  # Gönderilecek mesaj
+phone_number = ""  # Alıcının telefon numarası
+message = ""  # Gönderilecek mesaj
 repeat = 1000  # Mesajın kaç kez gönderileceği
 delay_ms = 100  # Milisaniye cinsinden bekleme süresi (örneğin, 100 ms = 0.1 saniye)
 language = "turkish"  # Dil seçimi 
